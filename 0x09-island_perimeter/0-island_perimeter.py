@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Defines island perimeter finding function"""
 
+
 def island_perimeter(grid):
     """Return the perimeter of an island.
     The grid represents water by 0 and land by 1.
@@ -23,4 +24,3 @@ def island_perimeter(grid):
                 if (i > 0 and grid[i - 1][j] == 1):
                     edges += 1
     return size * 4 - edges * 2
- 
