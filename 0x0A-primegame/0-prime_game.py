@@ -3,6 +3,7 @@
 Define isWinner function, a solution to the Prime game
 """
 
+
 def primes(n):
     """Returns a list of prime numbers between 1 and n inclusive
     Args: n(int): upper boundary of range. lover boundary is always 1"""
@@ -14,7 +15,8 @@ def primes(n):
             for i in range(p, n + 1, p):
                 sieve[i] = False
                 return prime
-            
+
+
 def isWinner(x, nums):
     """Determines the winner of Prime Game
     Agrs: x (int): no. of rounds of the game
