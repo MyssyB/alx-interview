@@ -21,20 +21,20 @@ def isWinner(x, nums):
     Agrs: x (int): no. of rounds of the game
     nums(int): upper limit of range for each round
     Return: Name of winner (Maria or Ben) or None if winner cannot be found"""
-    #if x is None or nums is None or x == 0 or nums == []:
-     #   return None
-    #Maria = Ben = 0
-    #for i in range(x):
-     #   prime = primes(nums[i])
-      #  if len(prime) % 2 == 0:
-       #     Ben += 1
-        #else:
-         #   Maria += 1
-          #  if Maria > Ben:
-           # return 'Maria'
-            #elif Ben > Maria:
-             #  return 'Ben'
-        #return None"""
+    # if x is None or nums is None or x == 0 or nums == []:
+    #   return None
+    # Maria = Ben = 0
+    # for i in range(x):
+    #   prime = primes(nums[i])
+    #  if len(prime) % 2 == 0:
+    #     Ben += 1
+    # else:
+    #   Maria += 1
+    #  if Maria > Ben:
+    # return 'Maria'
+    # elif Ben > Maria:
+    #  return 'Ben'
+    # return None"""
     if x < 1 or not nums:
         return None
     max_n = max(nums)
